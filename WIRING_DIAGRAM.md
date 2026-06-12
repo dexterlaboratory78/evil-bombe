@@ -1,4 +1,4 @@
-# 🐙 ARACHNOBEEST WALKING OCTOPOD — Wiring Diagram
+# 🎩 ARACHNOBEEST WALKING OCTOPOD — Wiring Diagram
 ## Evil Bombe Control System — ESP32-S3-CAM + TB6612FNG × 2 + 2× DC Motors
 
 ---
@@ -21,7 +21,7 @@ ESP32-S3-CAM (OV2640)
 ### ESP32-S3 GPIO Assignments
 
 | Function | GPIO | Purpose |
-|----------|------|----------|
+|----------|------|---------|
 | **Left Motor AIN1** | GPIO 40 | Direction control (forward) |
 | **Left Motor AIN2** | GPIO 41 | Direction control (backward) |
 | **Left Motor PWMA** | GPIO 42 | Speed control (PWM) |
@@ -182,7 +182,7 @@ pio device monitor --baud 115200
 ### Expected startup output:
 ```
 ╔════════════════════════════════════════╗
-║         🐙 EVIL BOMBE v1.0 🐙          ║
+║         🎩 EVIL BOMBE v1.0 🎩          ║
 ║    Arachnobeest Walking Octopod        ║
 ╚════════════════════════════════════════╝
 
